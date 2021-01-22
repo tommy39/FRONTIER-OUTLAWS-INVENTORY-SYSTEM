@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 320960a74c8655d4488ef364b9b2dcf0, type: 3}
+  m_Name: Game-Level-Toolkit-Data
+  m_EditorClassIdentifier: 
+  gameLevelsCreatedByUser:
+  - {fileID: 11400000, guid: ab9930966b991cb45a5f26fda165345c, type: 2}
+  - {fileID: 11400000, guid: 69e7e11d3110ca84db7594ea76a505ac, type: 2}
+  - {fileID: 11400000, guid: f54bf5fdc84ffbc4fa9d2a1dc9b21eac, type: 2}
+  - {fileID: 11400000, guid: 59dd023dd0be6364c9ac74bdd098b952, type: 2}
+  - {fileID: 11400000, guid: 61145bdd383b78e409c8246826be47cc, type: 2}
+  initialDataHasBeenCreated: 1
+  allCategoriesName: All
+  unassignedCategoryName: UnAssigned
+  allUserCreatedCategories:
+  - Asset Store Testing
+  - Testing

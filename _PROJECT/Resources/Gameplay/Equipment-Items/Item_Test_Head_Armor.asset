@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e13d59466cc70c41a5fd078d2771bbc, type: 3}
+  m_Name: Item_Test_Head_Armor
+  m_EditorClassIdentifier: 
+  itemName: ArmorHead
+  modelPrefab: {fileID: 7035479778894469814, guid: b9174840f1930594aa397c09481e002e, type: 3}
+  inventoryIcon: {fileID: 21300000, guid: 0baecca3342d6d241913b8b6938d16cd, type: 3}
+  inventorySlotType: 1
+  maxStackAmount: 1
+  tooltipContent: Helmet

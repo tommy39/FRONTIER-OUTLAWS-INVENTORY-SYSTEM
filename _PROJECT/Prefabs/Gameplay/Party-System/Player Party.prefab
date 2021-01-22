@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2617542380665648061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2617542380665648063}
+  - component: {fileID: 2617542380665648062}
+  m_Layer: 0
+  m_Name: Player Party
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2617542380665648063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2617542380665648061}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5515352927741860659}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2617542380665648062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2617542380665648061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d91138521fbabd946b0ce25b88d50de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  campInventory:
+    partyInventoryItems:
+    - item: {fileID: 0}
+      campUIInventoryIndex: 0
+    - item: {fileID: 0}
+      campUIInventoryIndex: 0
+    - item: {fileID: 0}
+      campUIInventoryIndex: 0
+    - item: {fileID: 0}
+      campUIInventoryIndex: 0
+    - item: {fileID: 0}
+      campUIInventoryIndex: 0
+  partyCharacters:
+  - pawnName: Borg
+    pawnTitle: Musketeer
+    portraitIcon: {fileID: 21300000, guid: 2c58347bb92ef6e40a9ad6e64f1a2b3e, type: 3}
+    pawnLevel: 3
+    pawnCurrentExperience: 2200
+    inventory:
+      rightHandWeaponItem: {fileID: 0}
+      leftHandWeaponItem: {fileID: 0}
+      bodyEquipmentItem: {fileID: 0}
+      headEquipmentItem: {fileID: 0}
+      backpackItems:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - pawnName: Hvitserk
+    pawnTitle: Gunslinger
+    portraitIcon: {fileID: 21300000, guid: 2c58347bb92ef6e40a9ad6e64f1a2b3e, type: 3}
+    pawnLevel: 5
+    pawnCurrentExperience: 1000
+    inventory:
+      rightHandWeaponItem: {fileID: 0}
+      leftHandWeaponItem: {fileID: 0}
+      bodyEquipmentItem: {fileID: 0}
+      headEquipmentItem: {fileID: 0}
+      backpackItems:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+--- !u!1 &4761895181607898913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5515352927741860659}
+  m_Layer: 0
+  m_Name: Player-Party-Character-Renders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5515352927741860659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4761895181607898913}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2617542380665648063}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

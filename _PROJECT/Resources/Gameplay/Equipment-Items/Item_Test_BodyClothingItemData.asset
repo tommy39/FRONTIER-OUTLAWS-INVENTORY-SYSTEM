@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d244780becba7a743b1b17fa36226747, type: 3}
+  m_Name: Item_Test_BodyClothingItemData
+  m_EditorClassIdentifier: 
+  itemName: Clothing-body
+  modelPrefab: {fileID: 0}
+  inventoryIcon: {fileID: 21300000, guid: 9c61baba75c24e94d900471f4f7eccee, type: 3}
+  inventorySlotType: 2
+  maxStackAmount: 1
+  tooltipContent: 
+  meshesToCreate:
+  - {fileID: 9220503625189473403, guid: 4471201c3e41c8d449ef007334cdfe06, type: 3}
+  - {fileID: 7259757749182510253, guid: 5998cf7825ed5ce4a96922a2f2d7bb89, type: 3}
+  - {fileID: 1607459278464118776, guid: c8733dc3e880c85428fe93fe29d7404e, type: 3}
+  - {fileID: 2477963462675825950, guid: f3956dec01f3f764e97a1a4e586d9643, type: 3}

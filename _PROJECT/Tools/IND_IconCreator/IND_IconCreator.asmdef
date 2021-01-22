@@ -1,0 +1,16 @@
+{
+    "name": "IND_IconCreator",
+    "rootNamespace": "",
+    "references": [
+        "GUID:247cd0795c404e5479efb308263a39b1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 553fde3366ac8da4992e23ba675c83f1, type: 3}
+  m_Name: Item_Test_Weapon_Rifle
+  m_EditorClassIdentifier: 
+  itemName: A Rifle
+  modelPrefab: {fileID: 977133010706300622, guid: 6eaff9f232e7a78418743a314c081685, type: 3}
+  inventoryIcon: {fileID: 21300000, guid: 5df82b7a129649d4ea860f4f27cb11f3, type: 3}
+  inventorySlotType: 3
+  maxStackAmount: 1
+  tooltipContent: Rifle
+  handlingType: 1
+  inventoryRenderPreviewAnimName: Rifle-Idle

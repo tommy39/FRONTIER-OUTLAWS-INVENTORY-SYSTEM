@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2845b727d6e2c408f2ddca3cc09538, type: 3}
+  m_Name: Inventory-Manager-Data-UI
+  m_EditorClassIdentifier: 
+  bgBackpackIcon: {fileID: 21300000, guid: 6b48bbdb78fabf74b871a3cda2a29fe0, type: 3}
+  bgWeaponIcon: {fileID: 21300000, guid: 1254cead4c220344a8cb5f6d405c5f29, type: 3}
+  bgHeadIcon: {fileID: 21300000, guid: 1f80f2351765917479abd00ddb6bcc79, type: 3}
+  bgBodyIcon: {fileID: 21300000, guid: d7fa5705f19a2fe488e8d9723c774461, type: 3}
+  emptySlotIconColor: {r: 1, g: 1, b: 1, a: 0.45882353}

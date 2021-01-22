@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79b97a20c90c4b14a8500479b5ff8745, type: 3}
+  m_Name: Icon-Creator-Data
+  m_EditorClassIdentifier: 
+  iconItems:
+  - item: {fileID: 11400000, guid: 9a3e45f39c834e0439c5555a37f3d867, type: 2}
+    localPos: {x: 0.082, y: 0, z: -0.306}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - item: {fileID: 11400000, guid: 0b31c7e0c81ffd545bf24fa94c02600f, type: 2}
+    localPos: {x: 0, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: 0, w: 0}
+    localScale: {x: 0, y: 0, z: 0}
+  - item: {fileID: 11400000, guid: 8e3e69eb5868d6a448ededea3194841d, type: 2}
+    localPos: {x: -0.16, y: 0.2880027, z: 0.000015258789}
+    localRotation: {x: -0.5298687, y: 0.3798596, z: 0.12784545, w: 0.74739647}
+    localScale: {x: 1, y: 1, z: 1}
